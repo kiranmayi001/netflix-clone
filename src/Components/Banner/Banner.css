@@ -38,11 +38,21 @@
 }
 .banner_bottomFade{
     height:7rem;
-    background-color: blue;
+    /* background-color: blue; */
     background-image: linear-gradient(
         180deg,
         transparent,
         rgba(37, 37, 37, 0.61),
         #111
       );
+}
+
+.banner_description{
+
+    width: 45rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    padding-top: 1rem;
+    max-width: 360px;
+    height: 80px;
 }

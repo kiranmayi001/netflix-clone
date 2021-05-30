@@ -5,7 +5,7 @@ function Banner() {
     return (
         <div className="banner" 
         style={{backgroundSize:'cover',
-                backgroundImage:'url("")',
+                backgroundImage:'url("https://image.tmdb.org/t/p/original//4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg")',
                 backgroundPosition: "center center"}}>
             <div className="banner_content">
                 <h1 className="banner_title">
