@@ -9,7 +9,7 @@ function RowCard({title,isLargeRow,fetchUrl}) {
 
 useEffect(() => {
   async function fetchData(){
-      const request = await axios.get(fetchUrl)
+      const request = await axios.get("https://api.themoviedb.org/3/discover/tv?api_key=19f84e11932abbc79e6d83f82d6d1045&with_networks=213")
         setMovies(request.data.results)   
         console.log(request.data.results)   
         return request;    
