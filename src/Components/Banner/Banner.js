@@ -26,7 +26,7 @@ function truncateDescription(str, n){
                 backgroundImage:`url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
                 backgroundPosition: "center center"}}>
             <div className="banner_content">
-                <h1 className="banner_title">
+                <h1 className="banner-title">
                     {movie?.title || movie?.name || movie?.original_name}
                 </h1>
                 <div className = "banner_buttons">

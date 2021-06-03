@@ -28,3 +28,7 @@
     right: 20px;
     object-fit: contain;
   }
+  .nav_black{
+    background-color: black;
+    height: 50px;
+  }
